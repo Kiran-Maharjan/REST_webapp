@@ -20,7 +20,8 @@ public class WebappApplication {
 	public static Logger logger = LoggerFactory.getLogger(WebappApplication.class);
 	@PostConstruct
 	public void init() throws Exception {
-		logger.info("Initializing...");
+		logger.info("Initializing web app to run. \n" +
+				"This is a test..............");
 	}
 	public static void main(String[] args) {
 		logger.info("Starting...");
